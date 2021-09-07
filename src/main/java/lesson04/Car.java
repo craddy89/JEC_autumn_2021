@@ -14,7 +14,8 @@ public class Car {
                         Engine.TypeEngine.Diesel, 100);
                 case Lux -> new Engine("Electron100",
                         Engine.TypeEngine.Electric, 100);
-                default -> throw new IllegalArgumentException("No such complect");
+                default -> throw new IllegalArgumentException
+                        ("No such complect");
             };
         }
     }
