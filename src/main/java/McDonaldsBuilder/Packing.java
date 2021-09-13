@@ -1,0 +1,9 @@
+package McDonaldsBuilder;
+
+public interface Packing {
+
+    public String pack();
+
+    public double packingPrice();
+
+}
